@@ -122,8 +122,8 @@ if __name__ == "__main__":
         forecast.append(func(Before1(i),Before3(i)))
                         
     plt.plot(time, forecast, label="Forecast Data")
-    for i in range(2500, 2700):
-        print(forecast[i], value[i])
+    #for i in range(2500, 2700):
+        #print(forecast[i], value[i])
     plt.legend()
     plt.show()
                         
